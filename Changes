@@ -1,0 +1,6 @@
+Revision history for Perl extension Net::XRC.
+
+0.01  Sun Aug  7 03:53:08 2005
+	- original version; created by h2xs 1.23 with options
+		-X -b 5.5.0 -n Net::XRC -v 0.01
+

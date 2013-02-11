@@ -12,3 +12,4 @@ lib/Net/XRC/Data/boolean.pm
 lib/Net/XRC/Data/bytes.pm
 lib/Net/XRC/Data/list.pm
 lib/Net/XRC/Data/complex.pm
+META.yml                                 Module meta-data (added by MakeMaker)

@@ -43,7 +43,8 @@ use Net::XRC::Data::complex;
 #	
 #);
 
-$VERSION = '0.01';
+$VERSION = '0.02';
+$VERSION = eval $VERSION; # modperlstyle: convert the string into a number
 
 $PROTO_VERSION = '1';
 $POST_URL = 'https://xrc.everyone.net/ccc/xrc';
@@ -52,6 +53,7 @@ $DEBUG = 0;
 
 my $ua = LWP::UserAgent->new;
 $ua->agent("Net::XRC/$VERSION");
+$ua->ssl_opts( verify_hostname => 0 );
 
 =head1 NAME
 

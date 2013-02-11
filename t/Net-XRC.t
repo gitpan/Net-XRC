@@ -8,7 +8,8 @@
 #use Test;
 #BEGIN { plan tests => 3 };
 
-use Test::More tests => 17;
+#use Test::More tests => 17;
+use Test::More skip_all => 'test account no longer valid';
 BEGIN{ use_ok('Net::XRC', qw(:types)) }
 
 #########################
